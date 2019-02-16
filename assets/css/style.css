@@ -1,12 +1,28 @@
-.topnav {
-    padding: 14px;
+/* Cannot get background image to show on body****
+.body {
+    background-image: url("assets/images/positive.png");
+    background-repeat: repeat;
+} *****************/
+
+/*****************
+.header {
+    padding: 140px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #ffffff;
+    color: #4aaaa5;
+  }
+
+header .topnav {
+    float: left;
+    padding: 20px;
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.topnav a {
-    padding: 12px;
+header .topnav a {
+    padding: 20px;
     float: right;
     display: block;
     color: #cccccc;
@@ -14,19 +30,80 @@
     text-decoration: none;
     font-size: 17px;
 }
-/* Cannot get background image to show on body */
-html {
-    background-image: url("positive.png");
-    background-repeat: repeat;
+**************/
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+body {
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
 }
 
-.main {
+header {
     background-color: #ffffff;
-    border-color: #dddddd;
-    border-width: 2px;
+    border-color: #cccccc;
+    border-width: 3px;
     border-style: solid;
+    color: #4aaaa5;
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+header .nav {
+    margin: 0;
+    font-size: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+header .nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    width: 20%;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #9E1212;
+    background: #ffa500;
+  }
+
+.left {
+    float: left;
+    padding-bottom: 20px;
+    width: 33.33%;
+    color: #4aaaa5;
+}
+
+.center {
+    float: left;
+    padding-bottom: 20px;
+    width: 33.33%;
+    color: #4aaaa5;
+}
+
+.right {
+    float: right;
+    padding-bottom: 20px;
+    width: 33.33%;
+    color: #4aaaa5;
+}
+
+/*.main {
+    width: 600px;
+    background-color: salmon;
+    border-color: #dddddd;
+    border-width: 3px;
+    border-style: solid;
+    padding: 3px 20px 3px 20px;
+}*/
 
 h1 {
     color: #4aaaa5;
