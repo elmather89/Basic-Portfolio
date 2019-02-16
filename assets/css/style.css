@@ -1,5 +1,37 @@
-.container h1 {
-    color: #4aaaa5;
-    background-color: black;
+.topnav {
+    padding: 14px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.topnav a {
+    padding: 12px;
+    float: right;
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Cannot get background image to show on body */
+body {
+    background-image: url("positive.png")
+}
+
+.main {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
