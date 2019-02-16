@@ -15,8 +15,9 @@
     font-size: 17px;
 }
 /* Cannot get background image to show on body */
-body {
-    background-image: url("positive.png")
+html {
+    background-image: url("positive.png");
+    background-repeat: repeat;
 }
 
 .main {
