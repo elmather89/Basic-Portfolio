@@ -23,6 +23,12 @@ h1 {
     font-size: 24px;
 }
 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 18px;
+}
+
 ul {
     float: right;
 }
@@ -32,6 +38,11 @@ li {
     margin: 20px 0 0 20px;
 }
 
+.img1 {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
 #wrapper {
     margin: 0 auto;
     padding: 0;
@@ -39,16 +50,24 @@ li {
 }
 
 #main {
-    background-color: cornflowerblue;
-    height: 200px;
+    background-color: #ffffff;
+    height: auto;
     padding: 20px;
     clear: left;
+}
+
+#about1 {
+    float: left;
+    clear: right;
+    padding: 20px;
+    width: 100%;
 }
 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 50px;
     background-color: #666666;
     text-align: center;
 }
