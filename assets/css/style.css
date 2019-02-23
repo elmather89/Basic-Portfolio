@@ -10,7 +10,7 @@ header {
     background-color: #ffffff;
     margin: 0 0 40px 0;
     border-bottom-color: #cccccc;
-    border-bottom-width: 5px;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
 }
 
@@ -35,7 +35,11 @@ ul {
 
 li {
     display: inline-block;
-    margin: 20px 0 0 20px;
+    padding: 20px 0 20px 20px;
+}
+
+li a {
+    
 }
 
 .img1 {
@@ -74,9 +78,14 @@ footer {
 }
 
 #footer-style {
+    padding: 18px;
     background-color: #666666;
-    height: auto;
-    padding: 20px;
     clear: left;
+    flex-shrink: 0;
+}
 
+/***************** Portfolio Gallery Grid Styels ********/
+#column {
+    display: inline-block;
+    float: left;
 }
