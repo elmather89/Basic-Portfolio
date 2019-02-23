@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/positive.png);
+    background-image: url(../images/concrete_seamless.png);
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -10,7 +10,7 @@ header {
     background-color: #ffffff;
     margin: 0 0 40px 0;
     border-bottom-color: #cccccc;
-    border-bottom-width: 2px;
+    border-bottom-width: 5px;
     border-bottom-style: solid;
 }
 
@@ -70,4 +70,13 @@ footer {
     height: 50px;
     background-color: #666666;
     text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+#footer-style {
+    background-color: #666666;
+    height: auto;
+    padding: 20px;
+    clear: left;
+
 }
