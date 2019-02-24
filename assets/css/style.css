@@ -26,7 +26,10 @@ h1 {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    font-size: 18px;
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: solid 2px #cccccc;
 }
 
 ul {
@@ -35,13 +38,30 @@ ul {
 
 li {
     display: inline-block;
-    padding: 20px 0 20px 20px;
 }
 
 li a {
     color: #777777;
     text-decoration: none;
 }
+
+li a:hover {
+    color: #4aaaa5;
+}
+
+/*** below targets the 1st li of the ul ***/
+ul:nth-of-type(1) li:nth-of-type(1) {
+    padding: 20px;
+}
+
+ul:nth-of-type(1) li:nth-of-type(2) {
+    padding: 20px;
+}
+
+ul:nth-of-type(1) li:nth-of-type(3) {
+    padding: 20px 0 20px 20px;
+}
+    
 
 .img {
     display: inline-block;
@@ -141,13 +161,42 @@ li a {
     height: auto;
     padding: 20px;
     clear: left;
-    text-align: center;
 }
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.cont-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}  
 
 #about1 {
     float: left;
     clear: right;
-    padding: 20px;
     width: 100%;
 }
 
