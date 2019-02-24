@@ -39,12 +39,88 @@ li {
 }
 
 li a {
-    
+    color: #777777;
+    text-decoration: none;
+}
+
+.img {
+    display: inline-block;
+    padding: 10px;
 }
 
 .img1 {
     float: left;
     margin: 0 20px 20px 0;
+}
+
+.img-clear {
+    display: inline-block;
+    padding-right: 300px;
+}
+
+.banner {
+    position: absolute;
+    z-index: 1;
+}
+
+#b1 {
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    top: 140px;
+    left: 10px;
+    padding: 20px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+}
+
+#b2 {
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    top: 140px;
+    left: 10px;
+    padding: 20px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+}
+
+#b3 {
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    top: -82px;
+    left: 234px;
+    padding: 20px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+}
+
+#b4 {
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    top: -82px;
+    left: 458px;
+    padding: 20px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+}
+
+#b5 {
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    top: -82px;
+    left: 683px;
+    padding: 20px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
 }
 
 #wrapper {
@@ -58,6 +134,14 @@ li a {
     height: auto;
     padding: 20px;
     clear: left;
+}
+
+#main-form {
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px;
+    clear: left;
+    text-align: center;
 }
 
 #about1 {
@@ -84,8 +168,4 @@ footer {
     flex-shrink: 0;
 }
 
-/***************** Portfolio Gallery Grid Styels ********/
-#column {
-    display: inline-block;
-    float: left;
-}
+/***************** Portfolio Gallery Grid Styles ********/
